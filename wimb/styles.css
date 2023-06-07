@@ -1,0 +1,197 @@
+* {
+	margin:  0px;
+	padding:  0px;
+	box-sizing: border-box;
+}
+
+
+ @font-face{
+       
+        src: url(anthony-master/fonts/web/Anthony.woff)format('woff');
+        font-family:'Anthony';
+      }
+
+h1 {font-family:'Anthony'}
+#nivea:hover #niveaimage {
+	opacity: 50%;
+}
+#mouse:hover #imageimage {
+	opacity: 50%;
+}
+
+#mentos:hover #mentosimage {
+	opacity: 50%;
+}
+
+#note:hover #noteimage {
+	opacity: 50%;
+}
+
+#imagetext {line-height:30px;}
+#niveatext {line-height:30px;}
+#mentostext {line-height:30px;}
+#notetext {line-height:30px;}
+#title{line-height:40px;}
+
+#rectangle {
+  position: absolute;
+  top: 325px;
+	left: 290px;
+  width : 650px;
+  height : 60px;
+  background-color: rgba(49,55,203,1.0);
+
+}
+.textbox_0{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 30px;
+	background-color: rgba(255, 255, 255, 1.0);
+	display: none;
+
+}
+
+
+#image:hover .textbox_0{
+	display: block;
+	opacity: 100%;
+
+}
+
+.textbox {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 30px;
+	background-color: rgba(245, 54, 147, 1.0);
+	display: none;
+
+}
+
+
+#nivea:hover .textbox {
+	display: block;
+	opacity: 100%;
+
+}
+
+
+.textbox_2 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 30px;
+	background-color: rgba(255, 178, 178, 1.0);
+	display: none;
+}
+
+#mentos:hover .textbox_2 {
+	display: block;
+
+}
+
+
+.textbox_3 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 30px;
+	background-color: rgba(250, 210, 66, 1.0);
+	display: none;
+}
+
+#note:hover .textbox_3 {
+	display: block;
+
+}
+
+
+
+@font-face{
+	font-family: 'dots';
+	src:url('../UI---design-11/tinyfonts-master/fonts/webfonts/TINY5x3-60.woff2')format('truelife');
+}
+/* adjusting
+ fonts */
+
+body {
+	font-family: 'dots';
+	transition: background 500ms ease;
+	background-color:lightgrey;
+  background-repeat: repeat-x;
+  animation: moveFlower 20s linear infinite;
+}
+
+
+@keyframes moveFlower {
+  0% {
+    background-position-x: 0%;
+  }
+  100% {
+    background-position-x: 100%;
+  }
+
+  
+}
+
+
+
+}
+
+p, li {
+	font-size:  20px;
+	line-height: 30px;
+	color: green;
+}
+
+/* adjusting spacing */
+
+#left-column {
+	padding: 20px;
+}
+
+h1, p {
+	margin-bottom:  20px;
+}
+
+ul, ol {
+	margin-left: 20px;
+}
+
+img {
+	max-width: 100%;
+	height:  auto;
+}
+
+/* uncomment the code below to set the grid */
+
+/*#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+body {
+	overflow: hidden;
+}
+
+.scroll {
+	padding:  20px;
+	overflow: scroll;
+	height: 100vh;
+}
+
+#left-column {
+}
+
+#right-column {
+	background: #333;
+}*/
